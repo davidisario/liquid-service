@@ -89,16 +89,6 @@
 					<source>${project.build.directory}/${project.build.finalName}.${project.packaging}</source> 
 					<name>${project.build.finalName}</name> 
 				</configuration> 
-				<!-- 
-				<executions> 
-					<execution> 
-						<phase>install</phase> 
-						<goals> 
-							<goal>deploy</goal> 
-						</goals> 
-					</execution> 
-				</executions> 
-				--> 
 			</plugin> 
 		</plugins>
 	</build>
